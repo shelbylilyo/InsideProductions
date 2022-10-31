@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2572391, y: -10.582335, z: 9.250973}
+    m_Target: {x: 1.669452, y: -5.5458746, z: 20.354174}
     speed: 2
-    m_Value: {x: 1.2572391, y: -10.582335, z: 9.250973}
+    m_Value: {x: 1.669452, y: -5.5458746, z: 20.354174}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -820,9 +820,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.49236736, y: -0.003916762, z: 0.0022183543, w: 0.87038136}
+    m_Target: {x: 0.14523682, y: 0.028193139, z: -0.0041352664, w: 0.98900217}
     speed: 2
-    m_Value: {x: -0.49236736, y: 0.003916762, z: -0.0022183543, w: -0.87038136}
+    m_Value: {x: -0.14523682, y: -0.02819314, z: 0.0041352664, w: -0.9890022}
   m_Size:
     m_Target: 10.45
     speed: 2
@@ -917,7 +917,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
