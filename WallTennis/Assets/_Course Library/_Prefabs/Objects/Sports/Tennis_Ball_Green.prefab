@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8211738231818159773}
   - component: {fileID: 6201741614517645911}
   - component: {fileID: -1695656799983992288}
+  - component: {fileID: 3938057890359593073}
   m_Layer: 0
   m_Name: Tennis_Ball_Green
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -89,9 +92,23 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5553500551040947074}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e654b37fdb1572b448b120296457ac63, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.031977497
   m_Center: {x: -0.000095553696, y: 0.03097614, z: 0.00004130043}
+--- !u!114 &3938057890359593073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5553500551040947074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81f18236cff45940ba46647a2084b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lifeloss: 1
+  Lives: {fileID: 0}
