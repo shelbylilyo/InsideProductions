@@ -13,7 +13,7 @@ public class LivesUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     void Awake()
     {
@@ -27,7 +27,7 @@ public class LivesUI : MonoBehaviour
 
     public void DecreaseLife(int Lifeloss)
     {
-        Lives = Lives - Lifeloss;
+        Lives -= Lifeloss;
         PLives.text = "Lives: " + Lives.ToString();
     }
 }

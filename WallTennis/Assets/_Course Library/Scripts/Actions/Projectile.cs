@@ -9,11 +9,11 @@ public class Projectile : MonoBehaviour
 
     public int Lifeloss = 1;
 
-    public TextMeshProUGUI Lives;
+    //public TextMeshProUGUI Lives;
 
     public void Awake()
     {
-        livesUI = Lives.GetComponent<LivesUI>();
+        livesUI = GameObject.Find("Lives").GetComponent<LivesUI>();
     }
 
     // Update is called once per frame
