@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 6c7fe63dea7159f4b93ca074f813cca0
+timeCreated: 1581006368
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Pulley
+    100002: //RootNode
+    100004: Trebuchet_Articulation
+    100006: Trebuchet_Capstan
+    100008: Trebuchet_Mast
+    100010: Trebuchet_Slingshot
+    100012: Trebuchet_Weight
+    400000: Pulley
+    400002: //RootNode
+    400004: Trebuchet_Articulation
+    400006: Trebuchet_Capstan
+    400008: Trebuchet_Mast
+    400010: Trebuchet_Slingshot
+    400012: Trebuchet_Weight
+    2300000: Pulley
+    2300002: //RootNode
+    2300004: Trebuchet_Articulation
+    2300006: Trebuchet_Capstan
+    2300008: Trebuchet_Mast
+    2300010: Trebuchet_Slingshot
+    2300012: Trebuchet_Weight
+    3300000: Pulley
+    3300002: //RootNode
+    3300004: Trebuchet_Articulation
+    3300006: Trebuchet_Capstan
+    3300008: Trebuchet_Mast
+    3300010: Trebuchet_Slingshot
+    3300012: Trebuchet_Weight
+    4300000: Trebuchet
+    4300002: Trebuchet_Mast
+    4300004: Trebuchet_Articulation
+    4300006: Trebuchet_Weight
+    4300008: Trebuchet_Slingshot
+    4300010: Trebuchet_Capstan
+    4300012: Pulley
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
