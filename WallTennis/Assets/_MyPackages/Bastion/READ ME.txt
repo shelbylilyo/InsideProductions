@@ -1,0 +1,10 @@
+Thank you for the purchase ! Please read this before use our package:
+
+- We use volumetric light in screenshots and video. it 's a free package very easy to use and you can get here: https://github.com/SlightlyMad/VolumetricLights
+
+- You may also need to import Post Processing from the package manager ! Go to Window > Package Manager > Post Processing and click "Install". Set project setting > Player in "Linear".
+
+
+-If you have any question or suggestions: thetalesfactory@gmail.com Please follow us on Instagram, Youtube and Facebook !
+
+The Tales Factory
