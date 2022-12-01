@@ -5789,7 +5789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374831758}
   m_Layer: 0
-  m_Name: Lighting
+  m_Name: --LIGHTING--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22452,7 +22452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1460240590}
   m_Layer: 0
-  m_Name: -----UI-----
+  m_Name: --UI--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23753,7 +23753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598947300}
   m_Layer: 0
-  m_Name: -----Gameplay Items-----
+  m_Name: --GAMEPLAY ITEMS--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30473,7 +30473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122721648}
   m_Layer: 0
-  m_Name: -----World Items-----
+  m_Name: --WORLD ITEMS--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
