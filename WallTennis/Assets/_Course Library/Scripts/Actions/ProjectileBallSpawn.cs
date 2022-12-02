@@ -10,7 +10,7 @@ public class ProjectileBallSpawn : MonoBehaviour
 
     LaunchProjectile launchProjectile;
 
-    public GameObject Launcher;
+    //public GameObject Launcher;
 
     public int Lifeloss = 1;
 
@@ -20,7 +20,7 @@ public class ProjectileBallSpawn : MonoBehaviour
     {
         livesUI = GameObject.Find("Lives").GetComponent<LivesUI>();
         scoringSystem = GameObject.Find("Score").GetComponent<ScoringSystem>();
-        launchProjectile = Launcher.GetComponent<LaunchProjectile>();
+        launchProjectile = GameObject.Find("Launcher_Dart").GetComponent<LaunchProjectile>();
     }
 
     // Update is called once per frame
@@ -33,7 +33,6 @@ public class ProjectileBallSpawn : MonoBehaviour
     {
         if (other.gameObject.tag == "Background")
         {
-            scoringSystem.IncreaseScore(1);
             livesUI.DecreaseLife(Lifeloss);
             Destroy(gameObject);
             launchProjectile.Fire();
@@ -41,7 +40,7 @@ public class ProjectileBallSpawn : MonoBehaviour
         if (other.gameObject.tag == "Target")
         {
             scoringSystem.IncreaseScore(1);
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }

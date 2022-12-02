@@ -29,14 +29,13 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.tag == "Background")
         {
-            scoringSystem.IncreaseScore(1);
             livesUI.DecreaseLife(Lifeloss);
             Destroy(gameObject);
         }
         if (other.gameObject.tag == "Target")
         {
             scoringSystem.IncreaseScore(1);
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
