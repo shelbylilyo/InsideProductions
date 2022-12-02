@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 3323798746752331476}
   - component: {fileID: 5711491781156965056}
   - component: {fileID: 2512051634483152201}
+  - component: {fileID: -5077315667993652167}
   m_Layer: 0
-  m_Name: Tennis_Ball_Green_T
+  m_Name: Tutorial_Tennis_ball
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,3 +231,15 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-5077315667993652167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812529290037854070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4736ad034db974bab224aa7a43fb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

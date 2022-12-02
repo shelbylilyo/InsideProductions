@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class Projectile : MonoBehaviour
+public class ProjectileBallSpawn : MonoBehaviour
 {
     LivesUI livesUI;
 
     ScoringSystem scoringSystem;
+
+    LaunchProjectile launchProjectile;
+
+    public GameObject Launcher;
 
     public int Lifeloss = 1;
 
@@ -17,12 +20,13 @@ public class Projectile : MonoBehaviour
     {
         livesUI = GameObject.Find("Lives").GetComponent<LivesUI>();
         scoringSystem = GameObject.Find("Score").GetComponent<ScoringSystem>();
+        launchProjectile = Launcher.GetComponent<LaunchProjectile>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void OnCollisionEnter(Collision other)
@@ -32,6 +36,7 @@ public class Projectile : MonoBehaviour
             scoringSystem.IncreaseScore(1);
             livesUI.DecreaseLife(Lifeloss);
             Destroy(gameObject);
+            launchProjectile.Fire();
         }
         if (other.gameObject.tag == "Target")
         {
