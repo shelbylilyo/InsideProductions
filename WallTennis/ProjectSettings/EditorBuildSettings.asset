@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
     guid: afdcb113ffd5a4353ad88f0dd03743af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WallTenisScene.unity
     guid: e8f9f4e50c473e343a0db3f4c521890c
   - enabled: 1
