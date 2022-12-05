@@ -27,10 +27,4 @@ public class ScoringSystem : MonoBehaviour
         Score += Scoreincrease;
         PScore.text = "Score: " + Score.ToString();
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(gameObject);
-        IncreaseScore(1);
-    }
 }
