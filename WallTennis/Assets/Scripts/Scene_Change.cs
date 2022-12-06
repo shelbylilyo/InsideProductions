@@ -1,4 +1,3 @@
-using System.ComponentModel.Design.Serialization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -21,7 +20,15 @@ public class Scene_Change : MonoBehaviour
             SceneManager.LoadScene(SceneName);
         }
 
-        if (target.tag == tag)
+        if (OVRInput.Get(OVRInput.Button.One))
+        {
+            SceneManager.LoadScene(SceneName);
+        }
+    }
+
+    private void Update()
+    {
+        if (OVRInput.Get(OVRInput.Button.One))
         {
             SceneManager.LoadScene(SceneName);
         }

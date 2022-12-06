@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3665776562852891435}
   - component: {fileID: 191229913929365770}
   - component: {fileID: 6863668874180478114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tennis_Ball_Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}

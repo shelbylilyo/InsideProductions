@@ -21,5 +21,9 @@ public class ProjectileTutorial : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (other.gameObject.tag == "Target")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
